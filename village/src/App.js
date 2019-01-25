@@ -31,7 +31,7 @@ class App extends Component {
         this.setState(() => ({ smurfs: response.data }));
     })
     .catch(error => {
-        console.error('Server Error', error);
+        console.error('Update Error', error);
     });
   }
 

@@ -15,7 +15,6 @@ class Smurfs extends Component {
       .catch(error =>{
         console.error('Smurf escaped', error);
       })
-      this.forceUpdate();
   }
 
   render() {
